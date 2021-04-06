@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Pokemon.create(name: 'Pikachu', 
+sprites: 'https://www.nicepng.com/png/detail/334-3342334_gen-2-pikachu-sprite.png', 
+stats: 'hp 40, attack 95', 
+abilities: 'electric')
